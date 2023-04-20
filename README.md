@@ -47,6 +47,6 @@ Boilerplate web application ready to be used as a base for your project. It cont
 
 1. Create empty database in PostgreSQL (this will be your app database)
 2. Run `npm install` for installing all dependencies 
-3. Run `npm run install` and follow cmd
+3. Run `npm run init` and follow cmd
 4. Build app
 5. Enjoy
