@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "swagger": "node src/swagger/swagger.js",
     "init": "npx ts-node scripts/initapp.ts",
-    "docker": "docker build --tag api:latest ."
+    "docker": "docker build --tag api:latest .",
+    "install": "./scripts/install.sh && npx ts-node scripts/initapp.ts"
   },
   "author": "",
   "license": "ISC",

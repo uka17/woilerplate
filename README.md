@@ -45,18 +45,8 @@ Boilerplate web application ready to be used as a base for your project. It cont
 
 ## How to install:
 
-1. Run `npm install` for installing all dependencies
-2. Configure environment:
-   1. Add to the root of project file with name `.env` and the following content (change values to proper one):
-    ```sh
-    DB="postgres://user:password@host:port/database"
-    JWT_SECRET="jwtsecret"
-    ENV="DEV"
-    ``` 
-   2. Change `ENV` vars in `Dockerfile` to the same values
-   3. Change postgres `password` and `host` values to same one in `/scripts/initdb.sh`  
-      
-3. Run `/scripts/initdb.sh`. It will setup `postgres` docker container (yes, you will need `Docker` installed) and network
-4. Create database in newly created postgres
-5. Run `npm run init`. It will populate 
-6. Build app
+1. Create empty database in PostgreSQL (this will be your app database)
+2. Run `npm install` for installing all dependencies 
+3. Run `npm run install` and follow cmd
+4. Build app
+5. Enjoy
