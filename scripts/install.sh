@@ -39,6 +39,8 @@ else
   echo "COPY . .  " >> $FILE
   echo "#Generate swagger content" >> $FILE
   echo "RUN npm run swagger" >> $FILE
+  echo "#Update text" >> $FILE
+  echo "RUN npm run text" >> $FILE
   echo "RUN npx tsc" >> $FILE
   echo "CMD node out/index.js" >> $FILE
   echo "Done"

@@ -8,7 +8,7 @@
     "swagger": "node src/swagger/swagger.js",
     "text": "npx ts-node scripts/initapp.ts",
     "docker": "docker build --tag api:latest .",
-    "init": "./scripts/install.sh && npx ts-node scripts/initapp.ts"
+    "gen": "./scripts/install.sh && npx ts-node scripts/initapp.ts"
   },
   "author": "",
   "license": "ISC",
